@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8a21576cf7.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(63, 63, 63);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .signupfield{
+            background-color: rgb(63, 63, 63);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 5px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: auto;
+            height: auto;
+            box-shadow: 0 0 9px rgb(12, 12, 12);
+        }
+        input{
+            margin: 20px;
+            padding: 5px;
+            height: 20px;
+            width: 400px;
+
+        }
+        select{
+            margin: 20px;
+            padding: 5px;
+            height: 40px;
+            width: 415px;
+        }
+        option{
+            margin: 20px;
+            padding: 5px;
+            height: 40px;
+            width: 415px;
+        }
+        span{
+            margin: 20px;
+            padding: 5px;
+            height: auto;
+            width: 400px;
+            border: 1px solid rgb(153, 255, 0);
+            background-color: greenyellow;
+        }
+        button{
+            margin: 20px;
+            padding: 5px;
+            height: 40px;
+            width: 415px;
+            color: white;
+            background-color: black;
+        }
+        button:hover{
+            color: black;
+            background-color: white;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <form class="signupfield" action="C:\Users\user\Desktop\MY web\login.html" >
+    
+        <h2 style="color: white;">Sign Up</h2>
+        <span>Please Notice That Password Must Contain Special Symbols Numbers And lowwer And Upper Case Letters To Make Your Password Strong</span>
+        <input type="Name" placeholder="Full Name" id="name" required >
+        <input type="username" placeholder="Username" required minlength="5" maxlength="10">
+        <input pattern="[A-Z a-z 0-9 . _ + - ]+@[ a-bA-Z a-z 0-9 -]+ \ .[a-z]{2} "type="Email" placeholder="Email" id="email" required>
+        <input pattern="[0-9]{10}"type="number" placeholder="Mobile Number" id="number" required>
+        <select id="gender" name="gender" >
+            <option value="Male">Male</option>
+            <option value="Fe-Male">Fe-Male</option>
+        </select>
+        <input type="password" placeholder="Enter Password" id="password" required minlength="8" maxlength="12">
+        <input type="number" placeholder="Age" id="age" required>
+        <button type="submit">Submit</button>
+    </form>
+    
+  
+</body>
+</html>

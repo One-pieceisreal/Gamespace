@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HOME PAGE</title>
+    <script src="https://kit.fontawesome.com/8a21576cf7.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px;
+            padding: 0px;
+
+        }
+        .main{
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px;
+            padding: 0px;
+            border: 2px solid black;
+        }
+        .header{
+            display: flex;
+            height: 120px;
+            width: 100%;
+            background-color: rgb(29, 29, 29);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration-color: white;
+            padding: 4px;
+        }
+        .header button{
+            height: 45px;
+            width: 70px;
+            cursor: pointer;
+            padding: 5px;
+            background-color: transparent;
+            border: 1px solid rgb(83, 214, 43);
+            color: white;
+            margin: 7px;
+            
+            font: arial;
+            
+
+
+        }
+        .header button:hover{
+            background-color: rgb(83, 214, 43);
+        }
+        .header h2{
+            color: white;
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            height: 1000px;
+            width: 300px;
+            border: none;
+            box-shadow: 0 0 5px grey;
+            background-color: rgb(234, 0, 255);
+            font-family: 'Lucida sans';
+            padding: 8px;
+        }
+        .menu h3{
+            margin: 20px;
+            color: rgb(219, 219, 219);
+        }
+        .content{
+            width: 1550px;
+            overflow-y: scroll;
+            overflow-x: scroll;
+            padding: 7px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 1000px;
+            border: 2px solid black;
+
+        }
+        .endbar{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 390px;
+            width: 100%;
+            background-color: rgb(29, 29, 29);
+        }
+        .endbar p{
+            margin: 10px;
+            color: rgb(190, 190, 190);
+        }
+
+        .gamesCardVertical{
+            margin: 7px;
+            display: flex;
+            width: 200px;
+            height: 300px;
+            box-shadow: 0 0 5px grey;
+            background-image: url("./1.jpg");
+            background-position: center;  
+        }   
+        .gamesCardHorisontal{
+            margin: 7px;
+            display: flex;
+            width: 400px;
+            height: 200px;
+            box-shadow: 0 0 5px grey;
+            background-image: url("./1.jpg");
+            background-position: center;
+        }
+        .horisontal{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .vertical{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        hr{
+            size: 30px;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h2>NAME</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <form action="C:\Users\user\Desktop\MY web\login.html">
+                <button>Login</button>
+            </form>
+            <button>Service</button>
+            <button>Contact</button>
+            <button>About</button>
+        </div>
+        <div class="menu"><h3>Trending</h3>
+            <h3>Most Played</h3>
+            <h3>Ratings</h3>
+            <h3>Feedbacks</h3>
+            <h3>Premuim</h3>
+            <h3>Free</h3>
+            <h3>Steam Games</h3>
+            <h3>Action</h3>
+            <h3>Multi Player</h3>
+            <h3>Single Player</h3>
+            <h3>Horror</h3>
+            <h3>Sandbox</h3>
+            <h3>Fantasy</h3>
+            <h3>Hide 'N' Seek</h3>
+            <h3>Shooting</h3>
+            <h3>Puzzel</h3>
+        </div>
+        <div class="content">
+            <div class="horisontal">
+                <div class="gamesCardHorisontal"></div>
+                <div class="gamesCardHorisontal"></div>
+                <div class="gamesCardHorisontal"></div>
+                <div class="gamesCardHorisontal"></div>
+                <div class="gamesCardHorisontal"></div>
+                <div class="gamesCardHorisontal"></div>
+            </div>
+            
+            <div class="vertical">
+                <div class="gamesCardVertical"></div>
+                <div class="gamesCardVertical"></div>
+                <div class="gamesCardVertical"></div>
+                <div class="gamesCardVertical"></div>
+                <div class="gamesCardVertical"></div>
+                <div class="gamesCardVertical"></div>
+                <div class="gamesCardVertical"></div>
+                <div class="gamesCardVertical"></div>
+
+            </div>
+            
+        </div>
+        <div class="endbar">
+            <p>
+                <h2 style="color: rgb(190, 190, 190);">NAME</h2>
+                <p>All Rights Reseverd World Wide</p>
+                <p>Name Provide You The Best Gaming Expireance</p>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
